@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+    <style name="MainLayOut">
+        <item name="android:layout_weight">60</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MainLayoutLand">
+        <item name="android:layout_weight">140</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="SecodeLayouot">
+        <item name="android:layout_weight">10</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="BtnPanel" parent="MainLayOut">
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="BtnGeneral">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="BtnGeneralLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">fill</item>
+    </style>
+    <style name="DisplayWindow">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorSecondaryLight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">100sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+    <style name="DisplayWindow.Land">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="OperatorTxt">
+        <item name="android:background">@color/colorSecondaryLight</item>
+        <item name="android:textSize">35sp</item>
+
+    </style>
+    <style name="OperatorTxt.land">
+        <item name="android:textSize">25sp</item>
+
+    </style>
+</resources>

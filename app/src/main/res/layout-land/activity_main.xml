@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        style="@style/MainLayoutLand"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/displayWindow"
+                style="@style/DisplayWindow.Land"
+                android:gravity="bottom"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/operatorTxt"
+                style="@style/OperatorTxt.land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingMultiplier="0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MainLayOut"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/BtnPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="&#8730;" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="X&#178;" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="sin" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="cos" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="tan" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BtnPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button24"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button23"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button22"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/BtnGeneralLand"
+                android:layout_weight="1"
+                android:onClick="Calculate"
+                android:text="EXP" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/BtnGeneralLand"
+                android:layout_weight="1"
+                android:onClick="EnterPI"
+                android:text="&#960;" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BtnPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/button19"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/button20"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BtnPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="-" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BtnPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/BtnGeneralLand"
+                android:onClick="AddNumbersToDesplay"
+                android:text="." />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/BtnGeneralLand"
+                android:onClick="Calculate"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/button25"
+                style="@style/BtnGeneralLand"
+                android:layout_weight="1"
+                android:onClick="AllClear"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/button21"
+                style="@style/BtnGeneralLand"
+                android:layout_weight="1"
+                android:onClick="DelOneCharFormDesplay"
+                android:text="DEL" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
